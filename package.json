@@ -1,0 +1,38 @@
+{
+    "name": "vue-unstated-next",
+    "version": "1.0.2",
+    "private": false,
+    "author": "Visualizeit",
+    "main": "./dist/vue-unstated-next.umd.js",
+    "module": "./dist/vue-unstated-next.es.js",
+    "unpkg": "./dist/vue-unstated-next.umd.js",
+    "types": "./dist/index.d.ts",
+    "description": "lightweight library simplify Vue3 dependency injection and state management",
+    "license": "MIT",
+    "homepage": "https://github.com/Visualizeit/vue-unstated-next",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Visualizeit/vue-unstated-next.git"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "provide",
+        "inject",
+        "vue",
+        "state-management"
+    ],
+    "scripts": {
+        "build": "vue-tsc --noEmit && vite build"
+    },
+    "devDependencies": {
+        "vue": "^3.0.0",
+        "@vitejs/plugin-vue": "^1.2.3",
+        "@vue/compiler-sfc": "^3.0.5",
+        "typescript": "^4.3.2",
+        "vite": "^2.3.7",
+        "vite-plugin-dts": "^0.4.3",
+        "vue-tsc": "^0.0.24"
+    }
+}
