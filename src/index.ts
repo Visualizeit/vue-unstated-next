@@ -52,7 +52,7 @@ export const createContainer = <Value, State = void>(
 
         if (key === defaultKey) {
             throw new Error(
-                'Component must be wrapped with Providedr component.'
+                'Component must be wrapped with Provider component.'
             )
         }
 
